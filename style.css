@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css?family=Suranna&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700&display=swap');
+.container{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+}
+header .logo{
+	margin-right: auto;
+}
+header .logo {
+	display: block;
+    height: 70px;
+    
+}
+.logo {
+	text-decoration: none;
+	font-size: 55px;
+    color: #000;
+    font-family: 'Dancing Script'
+}
+.menu li{
+	float: left;
+}
+.menu li a{
+	padding: 27px 17px;
+	display: block;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+    color: #000;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    font-family: 'Dancing Script'
+}
+.menu li:hover a{
+	background-color: #bf8040;
+	color: #fff;
+}
+.menu li:active a{
+	background-color: #c653c6;
+    color: #c653c6;
+    text-decoration: underline;
+}
+/*Ana Sehife*/
+.sectionArea{
+	padding: 80px 0;
+}
+
+#mainSlider{
+	height: 500px;
+	background: url('../Acsesuars/image/4.jpg') center center no-repeat;
+	background-size: cover;
+}
+.slider{
+	width: 100%;
+}
+#mainCaption{
+	height: 500px;
+	background: rgba(70, 54, 54, 0.2);
+}
+.caption{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	color: #fff;
+}
+h1{
+	font-size: 43px;
+	margin-bottom: 20px;
+}
+#MainCaption_p{
+	font-size: 23px;	
+}
+.featuresTop{
+    text-align: center;
+    margin-top: 20px;
+}
+.sectionHeader{
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    
+}
+.item{
+	padding: 10px 20px;
+}
+.zoom{
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+}
+.zoom img{
+	display: block;
+	width: 100%;
+	height: auto;
+    transition: all .5s ease;
+    height: 380px;
+}
+.item  .itemText{
+    text-align: center;
+    padding: 5px;
+	border: 1px solid #4d94ff;
+}
+.item:hover .zoom img{
+	transform: scale(1.35);
+}
+.item:hover .itemText{
+	background-color: #bf8040;
+	color:#fff;
+	transition: all .3s ease;
+}
+#itemText_p{
+    font-size: 18px;
+    font-family: 'Suranna';
+}
+#itemTextbutton{
+    border: 1px solid #4d94ff;
+    outline: none;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    font-family: 'Suranna';
+
+}
+#parallax{
+    height: 400px;
+	background: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .7)),
+				url('../Acsesuars/image/13.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+#parallax_h2{
+ 
+	height: 60px;
+	color: #fff;
+	display: inline-block;
+	line-height: 60px;
+	font-size: 25px;
+    padding-top:100px;
+}
+#parallax_p{
+    color: #fff;
+    font-size: 22px;
+    padding: 20px 150px;
+    
+    
+}
+.engineContainer{
+    position: relative;
+	width: 100%;
+}
+.imageOver{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.imageOverlay{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0,0,0, .8);
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .4s ease;
+}
+.engineContainer:hover .imageOverlay{
+	width: 100%;
+}
+.engineText{
+	white-space: nowrap;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.imageOverlay2{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0, 45%);
+	overflow: hidden;
+	width: 0;height: 100%;
+	transition: .4s ease;
+}
+.engineContainer:hover .imageOverlay2{
+	width: 100%;
+}
+#engine_h2{
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 45px;
+	padding-top:10px 0px;
+	font-family: 'Dancing Script'
+}
+footer{
+	background-color:grey;
+	background-color: rgba(0,0,0, .9);
+}
+#foter_h3{
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	font-family: 'Suranna';
+
+}
+#foter_p{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	font-family: 'Suranna';
+}
+#foter_ul li{
+	text-align: center;
+}
+#foter_ul li a{
+	text-decoration: none;
+	color: white;
+	
+}
+.socialLinks  {
+	display: flex;
+	
+}
+.socialLinks li{
+ margin: auto;
+ margin-top: 20px;
+}
+.socialLinks li a img{
+   
+ 
+   width: 40px;
+   height: 40px;
+}
+/*Elaqe*/
+form{
+	margin: auto;
+}
+.formitem{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	
+}
+.inputicon{
+	background-color: tomato;
+	width: 80px;
+}
+.formitem input{
+	border: 2px solid tomato;
+}
+form button{
+	outline: none;
+	border: none;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 150px;
+	height: 30px;
+
+}
+form textarea{
+	border: 2px solid tomato;
+	
+}
+/*Mehsullar*/
+.carousel img{
+    height: 600px;
+}
+/*haqqinda*/
+#history_h{
+	display: block;
+	margin: auto;
+	 text-align: center;
+	 font-family: 'Dancing Script';
+	 font-weight: bold;
+	 width: 300px;
+	 background-color: darkgrey;
+	 border-radius: 5px;
+	 margin-top: 10px;
+	 margin-bottom: 20px;
+	 
+}
+#history_p{
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+}
+.ourHistoryBody .containerFluid{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.ourHistoryDate{
+	flex: 1;
+	text-align: center;
+	background-color: rgba(0,0,0, 1);
+	color: #fff;
+}
+.ourHistoryDate p{
+	font-size: 30px;
+	position: relative;
+	top: 50%;left: 50%;
+	transform: translate(-50%,-50%);
+}
+.ourHistoryImage{
+	flex: 2;
+}
+.ourHistoryImage img{
+	width: 100%;
+	height: 100%;
+}
+.ourHistoryText{
+	flex: 3;
+	margin-left: 10px;
+}
+.ourHistoryText p{
+	position: relative;
+	top: 50%;left: 50%;
+	transform: translate(-50%,-50%);
+}
+.teamTop{
+	text-align: center;
+}
+.teamTop p{
+	margin-bottom: 10px;
+}
+.teamBody .containerFluid{
+	display: flex;
+	width: 100%;
+}
+.teamMember{
+	position: relative;
+	width: 100%;
+}
+.teamMemberImg{
+	display: block;
+	width: 100%;height: 100%;
+}
+.teamMemberOverlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;width: 100%;
+	opacity: 1;
+	background-color: #000;
+	transition: .4s ease;
+}
+.teamMemberOverlay .teamTitle{
+	color: #fff;
+	position: absolute;
+	font-size: 20px;
+	top: 50%;left: 50%;
+	transform: translate(-50%, -50%);
+}
+.teamMember:hover .teamMemberOverlay{
+	opacity: 0;
+}
+.teamMember:hover .teamMemberInfo{
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.teamMember:hover .teamTitle{
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.teamMemberInfo{
+	position: absolute;
+	top: 0;left: 50%;
+	transform: translateX(-50%);
+	background-color: rgba(0,0,0, .8);
+	transition: .3s ease;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+}
+.teamMemberInfo h5{
+	margin-bottom: 13px;
+}
+.memberSocialLinks{
+	text-align: center;
+}
+.memberSocialLinks li{
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.memberSocialLinks img{
+	width: 25px;
+	height: 25px;
+}
+.col3{
+	flex-grow: 1;
+	width: 33.33%;
+}
+.footer-copyright{
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+.projectXTop{
+	text-align: center;
+}
+.projectXTop p{
+	font-size: 25px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 8px;
+}
+#projectX .containerFluid{
+	height: 500px;
+	background: url('../Acsesuars/image/15.jpg') center center no-repeat;
+	background-size: cover;
+}
+.captionPX{
+	display: flex;
+	background-color: rgba(0,0,0, .4);
+	width: 100%;
+	height: 500px;
+}
+.projectXInfo{
+	position: relative;
+	top: 50%;left: 50%;
+	transform: translate(-50%,-50%);
+}
+.projectXTitle{
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: white;
+}
+.projectXBTN{
+	background-color: rgba(0,0,0, .5);
+	color: #fff;
+	padding: 20px 40px;
+	border: none;
+	margin-top: 20px;
+	transition: all .3s ease;
+}
+.projectXBTN:hover{
+	background-color: rgba(255,255,255, .5);
+	color: #000;
+	border: 0.1px solid #000;
+}
+.projectXText{
+	color: #fff;
+}
+.projectXHighlight{
+	display: inline-block;
+	background-color: rgba(0,0,0, .5); 
+	padding: 20px;
+}
+.containerFluid .col2{
+	padding: 0;
+}
+.projectXDetail{
+	color: #fff;
+}
+.projectXDetail li{
+	margin-bottom: 8px;
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	padding: 3px;
+	border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+	background-color: #555;
+  }
+  #myBtn img{
+	  height: 50px;
+	  width: 50px;
+  }
+@media screen and (max-width: 720px){
+	header .container{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	header .logo{
+		margin: 0 auto;
+	}
+	.menu li a{
+		font-size: 20px;
+	}
+	footer .container{
+		flex-direction: column;
+	}
+	footer .container .col3{
+		width: 100%;
+	}
+	footer .footerItem{
+		margin-bottom: 15px;
+	}
+	.featuresBody .container{
+		flex-direction: column;
+	}
+	.featuresBody .container .col3{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.engineBody .container{
+		flex-direction: column;
+	}
+	.engineBody .container .col2{
+		width: 80%;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0 auto;
+	}
+	
+	.ourHistoryBody .col-6{
+		flex-direction: column;
+		width: 100%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.ourHistoryText{
+		margin-left: 0;
+	}
+	.teamMemberInfo{
+		font-size: 14px;
+		padding: 10px;
+	}
+	.teamTitle{
+		font-size: 14px;
+	}
+	.formShape{
+		display: none;
+	}
+	#aboutus img{
+          width: 100%;
+	}
+}

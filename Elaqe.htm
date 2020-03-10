@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Professional Web Dizayn">
+	<meta name="author" content="Turana ismayılova">
+	<meta name="keywords" content="HTML, CSS">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessories-Əlaqə</title>
+    <link rel="icon" href="image/icon.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Suranna&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="image/up.png"/></button>
+    <header>
+        <div class="container">
+            <div class="logo">
+                Accessories
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="AnaSehife.htm">Ana Səhifə</a></li>
+                    <li><a href="mehsullar.htm">Məhsullar</a></li>
+                    <li><a href="Haqqinda.htm">Haqqımızda</a></li>
+                    <li><a href="Elaqe.htm">Əlaqə</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </header>
+    <section id="image" style="height: 950px; background-color:#bf4040; ">
+        <div style="text-align: center;" class="image "><img style="width: 400px;" src="image/21.png" /></div>
+        <section class="container" id="form" style="background: white; height: 700px; margin-top: 20px;">
+            <form>
+                <div class="formitem">
+                    <span id="user" class="inputicon"><img src="image/user.png" /></span>
+                    <input onmouseover="Change('user')" onmouseout="Normal('user')" type="text" required="required"
+                        name="name" placeholder="Adiniz Soyadiniz">
+                </div>
+                <div class="formitem">
+                    <span id="phone" class="inputicon"><img src="image/phone.png" /></span>
+                    <input onmouseover="Change('phone')" onmouseout="Normal('phone')" type="tel" required="required"
+                        name="phone" placeholder="Telefon Nomreniz">
+                </div>
+                <div class="formitem">
+                    <span id="mail" class="inputicon"><img src="image/mail.png" /></span>
+                    <input onmouseover="Change('mail')" onmouseout="Normal('mail')" type="email" required="required"
+                        name="email" placeholder="Email Unvaniniz">
+                </div>
+                <div class="formitem">
+                    <span class="inputicon" id="message"><img src="image/message.png" /></span>
+                    <input onmouseover="Change('message')" onmouseout="Normal('message')" type="text"
+                        required="required" name="message" placeholder="Elave Melumatlar">
+                </div>
+                <div class="formitem">
+                    <span class="inputicon" id="help"><img src="image/help.png" /></span>
+                    <textarea onmouseover="Change('help')" onmouseout="Normal('help')" cols="50" rows="5"
+                        placeholder="Sual ve xaisleriniz" style="resize: none;"></textarea>
+                </div>
+                <button>Muraciet et</button>
+            </form>
+        </section>
+
+    </section>
+    <section class="map">
+        <div class="container" style="display: flex; flex-direction: column;text-align: center;">
+            <h1>Merkezi Unvanimiz</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.5415077911207!2d49.84433835019022!3d40.37468957926885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dae49523e17%3A0xd5ccb71b9de9376e!2sCoco%20Baku%20Sahil%20Filiali!5e0!3m2!1saz!2s!4v1583523585805!5m2!1saz!2s"
+            style="margin: auto;" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>        </div>
+    </section>
+    <footer>
+        <div class="container">
+
+            <div class="col-sm-4">
+                <div class="all">
+                    <h3 id="foter_h3">ModaTu</h3>
+                    <p id="foter_p">Rəngli qələmlərdən hazırlan möhtəşəm bəzək əşyaları</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h3 id="foter_h3">Cəld Keçidlər</h3>
+                <ul id="foter_ul">
+                    <li><a href="AnaSehife.htm">Ana Səhifə</a></li>
+                    <li><a href="Mehsullar.htm">Məhsullar</a></li>
+                    <li><a href="Haqqinda.htm">Haqqımızda</a></li>
+                    <li><a href="Elaqe.htm">Əlaqə</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h3 id="foter_h3">Sosial Media</h3>
+                <ul class="socialLinks">
+                    <li><a href="facebook.com"><img class="facebook" src="image/f2.png"></a></li>
+                    <li><a href="twitter.com"><img class="instagram" src="image/i2.png"></a></li>
+                    <li><a href="instagram.com"><img class="twitter" src="image/t2.png"></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-copyright">
+          
+            © 2020 Bütün Hüquqlar qorunur
+       
+          </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        function Change(par) {
+            document.getElementById(par).style.backgroundColor = "Black";
+        }
+        function Normal(par) {
+            document.getElementById(par).style.backgroundColor = "tomato";
+        }
+        
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        
+
+    </script>
+</body>
+
+</html>
