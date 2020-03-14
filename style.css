@@ -48,7 +48,7 @@ header .logo {
 
 #mainSlider{
 	height: 500px;
-	background: url('../Acsesuars/image/4.jpg') center center no-repeat;
+	background: url('../Acssesories/image/4.jpg') center center no-repeat;
 	background-size: cover;
 }
 .slider{
@@ -128,7 +128,7 @@ h1{
 #parallax{
     height: 400px;
 	background: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .7)),
-				url('../Acsesuars/image/13.jpg');
+				url('../Acssesories/image/13.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -431,7 +431,7 @@ form textarea{
 }
 #projectX .containerFluid{
 	height: 500px;
-	background: url('../Acsesuars/image/15.jpg') center center no-repeat;
+	background: url('../Acssesories/image/15.jpg') center center no-repeat;
 	background-size: cover;
 }
 .captionPX{
